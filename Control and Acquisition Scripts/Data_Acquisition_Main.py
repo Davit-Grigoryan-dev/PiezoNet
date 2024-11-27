@@ -11,8 +11,8 @@ import xmlrpc.client as xml
 
 plecs = xml.Server('http://localhost:1080/RPC2')
 
-#GIT
-# # Initialize the VISA resource manager
+#PUSH
+# Initialize the VISA resource manager
 rm = pyvisa.ResourceManager() 
 #rm1 = pyvisa.ResourceManager()  # Use the PyVISA-py backend
 #timeout
